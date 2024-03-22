@@ -9,7 +9,7 @@ export function Header () {
           <img className='rounded-full w-16 md:w-32 bg-white' src={icono} alt='' />
         </div>
         <div className='md:justify-self-start m-auto md:content-center'>
-          <h2 className='text-4xl text-primary font-medium'>EL TAMAL JUJEÑO</h2>
+          <h2 className='text-4xl text-primary font-medium m-5'>EL TAMAL JUJEÑO</h2>
         </div>
 
       </div>
