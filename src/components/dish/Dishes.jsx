@@ -1,15 +1,9 @@
-import { useEffect, useState } from 'react'
 import { Dish } from './Dish'
-import { getDishes } from '../../service/service'
+import { useDishes } from '../../hooks/useDeshes'
 
 export function Dishes () {
-  const [dishes, setDishes] = useState([])
+  const { dishes } = useDishes()
 
-  useEffect(() => {
-    getDishes()
-      .then(data => setDishes(data))
-      .catch(err => console.log(err))
-  }, [])
   return (
     <div className=''>
       <h1 className='flex justify-center text-4xl  md:text-5xl mt-5 text-primary'>Sabado y Domingo</h1>

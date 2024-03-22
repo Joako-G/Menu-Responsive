@@ -17,7 +17,7 @@ export function Footer () {
         <a className='flex w-10 h-10' target='_blank' href='https://www.instagram.com/tamaljujuy/' rel='noopener noreferrer'><Instagram /></a>
       </div>
 
-      <div className='grid md:grid-rows-[1fr_50px] w-96 md:w-auto'>
+      <div className='grid md:grid-rows-[1fr_60px] w-96 md:w-auto'>
         <h1>Contacto</h1>
         <div className='flex items-center md:items-start'>
           <Whatsapp />
