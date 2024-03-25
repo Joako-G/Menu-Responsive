@@ -2,7 +2,7 @@ import { Card, CardHeader, CardBody, Image, autocomplete } from '@nextui-org/rea
 
 export function Dish ({ dish }) {
   return (
-    <Card className='bg-gray-800 hover:scale-110 pb-4 m-4 w-80 shadow-lg shadow-amber-400/100 xl:w-72'>
+    <Card className='bg-gray-800 hover:scale-110 pb-4 m-4 w-72 md:w-80 shadow-lg shadow-amber-400/100 xl:w-72'>
       <CardBody className='overflow-visible p-0'>
         <Image
           isBlurred
